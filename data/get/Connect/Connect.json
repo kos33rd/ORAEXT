@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "connections": [
+        {
+        	"id": 1, 
+        	"name": 'Oracle test conn 1',  
+        	"type": 'oracle', 
+        	"description":'Test connection number one',
+        	"connectionDetails": {
+	        	"user":'user',
+	        	"password":'password',
+	        	"host":'host',
+	        	"port":'port',
+	        	"sid":'sid'
+			}
+
+        },
+        {
+        	"id": 2, 
+        	"name": 'Oracle test conn 2', 
+        	"type": 'oracle', 
+        	"description":'One more test connection (second)',
+        	"connectionDetails": {
+	        	"user":'user',
+	        	"password":'password',
+	        	"host":'host',
+	        	"port":'port',
+	        	"sid":'sid'
+			}
+        }
+    ]
+}
